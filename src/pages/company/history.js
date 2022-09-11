@@ -1,8 +1,16 @@
+import { Link } from 'gatsby'
 import React from 'react'
 
 const history = () => {
   return (
-    <div>This is history of our company</div>
+    <div>
+     <h2>
+
+
+    this is history of our company     
+    </h2>
+    <Link to="/">Home page</Link>
+</div>
   )
 }
 
